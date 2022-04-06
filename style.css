@@ -230,3 +230,53 @@ main .shelter-detail{
     width : 118rem;
     height : 70rem; 
 }
+=======
+footer{
+    border:none;
+    font-size: 14px;
+    line-height: 18px;
+    background-color:#f7f7f7;
+    padding:0px 80px;
+}
+
+footer .info-list {
+    display:flex;
+    justify-content:space-between;
+    margin:0px 12px;
+    padding:48px 0px;
+}
+
+footer ul {
+    margin:auto;
+    padding:0;
+    list-style: none;
+}
+footer li {
+    float:left;
+    margin-right: 10px;
+
+}
+
+footer hr {
+    margin:0;
+}
+
+footer .basic-info {
+    display:flex;
+    align-items:center;
+    padding:24px 0px;
+}
+
+footer .earth{
+    display:flex;
+    width:17px;
+    height:17px;
+}
+
+footer .social{
+    display:flex;
+    float:right;
+    margin:auto;
+    width: 104px;
+    height: 20px;
+}
