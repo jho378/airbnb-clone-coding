@@ -1,236 +1,4 @@
-*{
-    margin : 0;
-    padding : 0;
-}
-main a{
-    outline : none;
-    text-decoration: none;
-    color : inherit;
-}
-button {
-    cursor : pointer;
-    border : 0;
-    outline : 0;   
-}
 
-main .shelter{
-    display: flex;
-    justify-content : center;
-    align-items : center;
-    width : 100%;
-    height : 50rem;
-    background-color : black;
-}
-main .shelter-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items : center;
-    width : 118rem; 
-    height : 70%;
-    border-radius: 1rem;
-    background-color: #FF385C;
-    text-align : center;
-}
-main .shelter-nav span{
-    width : 118rem;
-    margin-top : 2rem;
-    color : white;
-    font-size : 3rem;
-    text-align : center;
-}
-main .shelter-detail{
-    border: 1px solid white;
-    color : white;
-    cursor : pointer;
-    margin : 1.3rem;
-    padding : 0.8rem;
-    border-radius : 0.4rem;
-}
-
-.accomodation{
-    position : relative;
-}
-
-.lodge{
-    position : absolute;
-    top : 50%;
-    left : 50%;
-    transform:translate(-50%, -50%);
-}
-.lodge img{
-    max-width : 118rem;
-    display : block;
-    border-radius : 1rem;
-}
-.black-background{
-    background-color : black;
-    height : 37rem; 
-}
-
-.white-background{  
-    background-color : white;
-    height : 43rem;
-}
-
-.curiosity{
-    position : absolute;
-    left : 50%;
-    bottom : 10rem;
-    transform : translate(-50%); 
-    font-size : 3rem;
-    color : white;
-}
-.curiosity-click{
-    text-align: center;
-    width : 10rem;
-    position: absolute;
-    padding : 0.5rem;
-    left:50%;
-    bottom : 4rem;
-    transform : translate(-50%);
-    font-size : 2rem;
-    background-color : #fff;
-    color : #460479;
-    border-radius : 0.5rem; 
-}
-
-.idea{
-    margin : auto;
-    padding-top: 10rem;
-    font-size : 3rem;
-    width : 118rem;
-    height : 45rem;
-}
-
-.cities{
-    display: flex;
-    justify-content: space-between;
-    align-items : center;
-
-}
-.city{
-    width : 28rem;
-    display: flex;
-    flex-direction: column;
-    height : 40rem;
-    border-radius : 5rem;
-    /* background-color : black; */
-}
-.seoul, .incheon, .daegu, .daejeon {
-    height : 20rem;
-    flex: 1;
-    width : 28rem;
-    border-radius : 5rem 5rem 0rem 0rem;
-}
-#seoul, #incheon, #daegu, #daejeon{
-    height : 20rem;
-    flex: 1;
-    width : 28rem;
-    border-radius : 0rem 0rem 5rem 5rem;
-}
-
-#seoul{
-    background:#460479;
-}
-#incheon{
-    background : powderblue;
-}
-#daegu{
-    background : orange;
-}
-#daejeon{
-    background: #CC2D4A;
-}
-
-.cityname{
-    padding-top : 1rem;
-    padding-left : 1rem;
-    font-size : 2rem;
-    color : #fff;   
-}
-.distance{
-    color : #fff;
-    padding-left : 1rem;
-    font-size : 1.6rem;
-}
-
-.travel-experiences span{
-    font-size : 3rem;
-}
-.travel-experiences{
-    margin : auto;
-    padding-top: 10rem;
-    font-size : 3rem;
-    width : 118rem;
-    height : 55rem;
-}
-.experiences{
-    display: flex;
-    justify-content: center;
-    align-items : center;
-
-}
-.experience{
-    position : relative;
-    margin : 1rem;
-    width : 59rem;
-    display: flex;
-    flex-direction: column;
-    height : 45rem;
-    border-radius : 2rem;
-    background-color : black;
-}
-#experience{
-    position : absolute;
-    top : 3rem;
-    left : 3rem;
-    font-size : 2.8rem;
-    color : #fff;
-}
-.experience img{
-    height : 45rem;
-    border-radius : 2rem;
-}
-.experience-button{
-    position : absolute;
-    background-color : white;
-    padding : 1rem 1.5rem 1rem 1.5rem; 
-    font-size : 1rem;
-    border-radius : 0.5rem;
-    left: 3rem;
-    top : 10.5rem;
-}
-
-.host{
-    width : 118rem;
-    height : 75rem;
-    
-    margin : auto;
-    position : relative;
-    border-radius : 1rem;
-}
-#ask-host{
-    font-size : 6rem;
-    top : 7rem;
-    left : 5rem;
-    position : absolute;
-    color : white;
-}
-#host-button{
-    position : absolute;
-    background-color : white;
-    bottom : 10rem; 
-    left : 5rem;
-    padding : 1rem 1.8rem 1rem 1.8rem;
-    border-radius : 2rem;
-}
-.host img{
-    border-radius : 1rem;
-    width : 118rem;
-    height : 70rem; 
-}
-=======
 footer{
     border:none;
     font-size: 14px;
@@ -239,44 +7,54 @@ footer{
     padding:0px 80px;
 }
 
-footer .info-list {
-    display:flex;
-    justify-content:space-between;
-    margin:0px 12px;
-    padding:48px 0px;
+a{color:black; text-decoration:none;
 }
 
-footer ul {
-    margin:auto;
+.info-list {
+    display:flex;
+    justify-content:space-between;
+    padding:48px 0px;
+    line-height:30px;
+}
+
+ul {
     padding:0;
     list-style: none;
 }
-footer li {
-    float:left;
-    margin-right: 10px;
 
+.basic-info li:not(.icon):not(.detail):not(.KRW) {margin-right: 12px;
 }
-
-footer hr {
-    margin:0;
-}
-
-footer .basic-info {
+li.KRW {margin-right: 50px;}
+.basic-info {
     display:flex;
-    align-items:center;
-    padding:24px 0px;
+    padding-top:24px;
+    padding-bottom: 24px;
+    border-top: 1px solid;
 }
 
-footer .earth{
+.word-info-class {
+    display:flex;
+}
+
+.lang-price-class{
+    display:flex;
+}
+
+.earth{
     display:flex;
     width:17px;
     height:17px;
 }
 
-footer .social{
+.social-icon{
     display:flex;
     float:right;
     margin:auto;
-    width: 104px;
-    height: 20px;
+    width: 140px;
+    height: 21px;
+}
+
+.basic-info{
+    display:flex;
+    justify-content:space-between;
 }
