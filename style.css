@@ -46,6 +46,11 @@ main .shelter-detail{
     margin : 1.3rem;
     padding : 0.8rem;
     border-radius : 0.4rem;
+    transition : 0.3s ease-out;
+}
+main .shelter-detail:hover{
+    color : #000;
+    background-color: #fff;
 }
 
 .accomodation{
@@ -63,18 +68,9 @@ main .shelter-detail{
     display : block;
     border-radius : 1rem;
 }
-.accomodation-background{
+.accomodation{
     height : 80rem;
     background-image : linear-gradient(0deg, #FFFFFF, #FFFFFF 46.25%, #000000 46.25%, #000000 100%);
-}
-.black-background{
-    background-color : black;
-    height : 37rem; 
-}
-
-.white-background{  
-    background-color : white;
-    height : 43rem;
 }
 
 .curiosity{
@@ -90,6 +86,7 @@ main .shelter-detail{
     width : 10rem;
     position: absolute;
     padding : 0.5rem;
+    cursor : pointer;
     left:50%;
     bottom : 4rem;
     transform : translate(-50%);
@@ -97,8 +94,12 @@ main .shelter-detail{
     background-color : #fff;
     color : #460479;
     border-radius : 0.5rem; 
+    transition : 0.3s ease-out;
 }
-
+.curiosity-click:hover{
+    color : white;
+    background-color:#460479;
+}
 .idea{
     margin : auto;
     padding-top: 10rem;
@@ -114,19 +115,27 @@ main .shelter-detail{
 
 }
 .city{
+    cursor : pointer;
     width : 28rem;
     display: flex;
     flex-direction: column;
     height : 40rem;
     border-radius : 5rem;
+    transition : 0.3s ease-out;
     /* background-color : black; */
 }
+
+.city:hover{
+    transform: scale(1.05);
+}
+
 .seoul, .incheon, .daegu, .daejeon {
     height : 20rem;
     flex: 1;
     width : 28rem;
     border-radius : 5rem 5rem 0rem 0rem;
 }
+
 #seoul, #incheon, #daegu, #daejeon{
     height : 20rem;
     flex: 1;
@@ -197,6 +206,7 @@ main .shelter-detail{
     border-radius : 2rem;
 }
 .experience-button{
+    cursor: pointer;
     position : absolute;
     background-color : white;
     padding : 1rem 1.5rem 1rem 1.5rem; 
@@ -204,8 +214,12 @@ main .shelter-detail{
     border-radius : 0.5rem;
     left: 3rem;
     top : 10.5rem;
+    transition : 0.3s ease-out;
 }
-
+.experience-button:hover{
+    background-color : orange;
+    color : white;
+}
 .host{
     width : 118rem;
     height : 75rem;
@@ -228,6 +242,12 @@ main .shelter-detail{
     left : 5rem;
     padding : 1rem 1.8rem 1rem 1.8rem;
     border-radius : 2rem;
+    cursor : pointer;
+    transition : 0.3s ease-out;
+}
+#host-button:hover{
+    background-color : sandybrown;
+    color : white;
 }
 .host img{
     border-radius : 1rem;
