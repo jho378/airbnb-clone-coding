@@ -262,44 +262,54 @@ footer{
     padding:0px 80px;
 }
 
-footer .info-list {
-    display:flex;
-    justify-content:space-between;
-    margin:0px 12px;
-    padding:48px 0px;
+a{color:black; text-decoration:none;
 }
 
-footer ul {
-    margin:auto;
+.info-list {
+    display:flex;
+    justify-content:space-between;
+    padding:48px 0px;
+    line-height:30px;
+}
+
+ul {
     padding:0;
     list-style: none;
 }
-footer li {
-    float:left;
-    margin-right: 10px;
 
+.basic-info li:not(.icon):not(.detail):not(.KRW) {margin-right: 12px;
 }
-
-footer hr {
-    margin:0;
-}
-
-footer .basic-info {
+li.KRW {margin-right: 50px;}
+.basic-info {
     display:flex;
-    align-items:center;
-    padding:24px 0px;
+    padding-top:24px;
+    padding-bottom: 24px;
+    border-top: 1px solid;
 }
 
-footer .earth{
+.word-info-class {
+    display:flex;
+}
+
+.lang-price-class{
+    display:flex;
+}
+
+.earth{
     display:flex;
     width:17px;
     height:17px;
 }
 
-footer .social{
+.social-icon{
     display:flex;
     float:right;
     margin:auto;
-    width: 104px;
-    height: 20px;
+    width: 140px;
+    height: 21px;
+}
+
+.basic-info{
+    display:flex;
+    justify-content:space-between;
 }
