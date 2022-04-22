@@ -1,0 +1,242 @@
+body {
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    background-color: black;
+}
+
+.update {
+    color: white;
+    font-size: 15px;
+    font-style: unset;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#covid {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.site-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+#logo-text {
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main-text p {
+    width: 100px;
+    margin: 0 10px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info {
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.user-info p {
+    width: 80px;
+    font-size: 17px;
+}
+
+.user-detail {
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    padding: 0 5px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-detail img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 0;
+}
+
+.search-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    background-color: white;
+    border-radius: 30px;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 20px;
+    border: 0px white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.location {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.checkin {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkin p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.checkout {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.num_person {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_person p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.search-button {
+    background-color: rgb(225, 41, 102);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button img {
+    background-color: rgb(225, 41, 102);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+}
