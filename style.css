@@ -2,6 +2,7 @@
     margin : 0;
     padding : 0;
 }
+
 main a{
     outline : none;
     text-decoration: none;
@@ -14,37 +15,33 @@ button {
 }
 
 main .shelter{
+    padding: 0 100px;
     display: flex;
     justify-content : center;
     align-items : center;
-    width : 100%;
-    height : 50rem;
     background-color : black;
 }
 main .shelter-nav{
+    padding: 0 100px;
+    height : 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items : center;
-    width : 118rem; 
-    height : 70%;
     border-radius: 1rem;
     background-color: #FF385C;
     text-align : center;
 }
 main .shelter-nav span{
-    width : 118rem;
-    margin-top : 2rem;
     color : white;
     font-size : 3rem;
     text-align : center;
 }
 main .shelter-detail{
     border: 1px solid white;
+    padding : 10px;
     color : white;
     cursor : pointer;
-    margin : 1.3rem;
-    padding : 0.8rem;
     border-radius : 0.4rem;
     transition : 0.3s ease-out;
 }
@@ -54,29 +51,27 @@ main .shelter-detail:hover{
 }
 
 .accomodation{
-    position : relative;
+    width : 100%;
+    /* position : relative; */
 }
 
 .lodge{
-    position : absolute;
-    top : 50%;
-    left : 50%;
-    transform:translate(-50%, -50%);
+    padding : 100px;
+    position : relative;
 }
 .lodge img{
-    max-width : 118rem;
-    display : block;
+    width: 100%;
     border-radius : 1rem;
 }
 .accomodation{
-    height : 80rem;
+    height : 50rem;
     background-image : linear-gradient(0deg, #FFFFFF, #FFFFFF 46.25%, #000000 46.25%, #000000 100%);
 }
 
 .curiosity{
     position : absolute;
     left : 50%;
-    bottom : 10rem;
+    bottom : 20rem;
     transform : translate(-50%); 
     font-size : 3rem;
     color : white;
@@ -88,7 +83,7 @@ main .shelter-detail:hover{
     padding : 0.5rem;
     cursor : pointer;
     left:50%;
-    bottom : 4rem;
+    bottom : 12rem;
     transform : translate(-50%);
     font-size : 2rem;
     background-color : #fff;
@@ -103,24 +98,27 @@ main .shelter-detail:hover{
 .idea{
     margin : auto;
     padding-top: 10rem;
-    font-size : 3rem;
-    width : 118rem;
-    height : 45rem;
+    font-size : 2rem;
+    height : 30rem;
+}
+#next-travel{
+    padding-left : 100px;
 }
 
 .cities{
+    padding : 0 70px;
     display: flex;
     justify-content: space-between;
     align-items : center;
-
 }
+
 .city{
     cursor : pointer;
-    width : 28rem;
     display: flex;
     flex-direction: column;
-    height : 40rem;
-    border-radius : 5rem;
+    margin : 0 13px;
+    height : 30rem;
+    border-radius : 1rem;
     transition : 0.3s ease-out;
     /* background-color : black; */
 }
@@ -131,15 +129,13 @@ main .shelter-detail:hover{
 
 .seoul, .incheon, .daegu, .daejeon {
     height : 20rem;
-    flex: 1;
-    width : 28rem;
     border-radius : 5rem 5rem 0rem 0rem;
+    width: 100%;
 }
 
 #seoul, #incheon, #daegu, #daejeon{
     height : 20rem;
-    flex: 1;
-    width : 28rem;
+
     border-radius : 0rem 0rem 5rem 5rem;
 }
 
@@ -169,41 +165,45 @@ main .shelter-detail:hover{
 }
 
 .travel-experiences span{
-    font-size : 3rem;
+    padding : 0 100px;
+    font-size : 2.5rem;
 }
 .travel-experiences{
     margin : auto;
     padding-top: 10rem;
     font-size : 3rem;
-    width : 118rem;
-    height : 55rem;
+    width : 100%;
+
 }
+
 .experiences{
+    padding : 0 80px;
     display: flex;
     justify-content: center;
     align-items : center;
-
+    
 }
+
 .experience{
     position : relative;
+    
     margin : 1rem;
-    width : 59rem;
     display: flex;
-    flex-direction: column;
-    height : 45rem;
+    /* flex-direction: column; */
     border-radius : 2rem;
     background-color : black;
 }
 #experience{
     position : absolute;
     top : 3rem;
-    left : 3rem;
+    left : -3rem;
     font-size : 2.8rem;
     color : #fff;
 }
 .experience img{
-    height : 45rem;
+    height: auto;
     border-radius : 2rem;
+    width: 100%;
 }
 .experience-button{
     cursor: pointer;
@@ -221,25 +221,26 @@ main .shelter-detail:hover{
     color : white;
 }
 .host{
-    width : 118rem;
-    height : 75rem;
-    
+    padding : 0 100px;
     margin : auto;
+
     position : relative;
     border-radius : 1rem;
 }
 #ask-host{
-    font-size : 6rem;
+    font-size : 5rem;
+    
     top : 7rem;
-    left : 5rem;
+    left : 10rem;
     position : absolute;
     color : white;
 }
 #host-button{
     position : absolute;
     background-color : white;
-    bottom : 10rem; 
-    left : 5rem;
+    bottom : 20rem; 
+    
+    left : 10rem;
     padding : 1rem 1.8rem 1rem 1.8rem;
     border-radius : 2rem;
     cursor : pointer;
@@ -251,8 +252,7 @@ main .shelter-detail:hover{
 }
 .host img{
     border-radius : 1rem;
-    width : 118rem;
-    height : 70rem; 
+    width: 100%;
 }
 footer{
     border:none;
@@ -313,3 +313,247 @@ li.KRW {margin-right: 50px;}
     display:flex;
     justify-content:space-between;
 }
+
+body {
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    background-color: black;
+}
+
+.update {
+    color: white;
+    font-size: 15px;
+    font-style: unset;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#covid {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.site-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+#logo-text {
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main-text p {
+    width: 100px;
+    margin: 0 10px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info {
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.user-info p {
+    width: 80px;
+    font-size: 17px;
+}
+
+.user-detail {
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    padding: 0 5px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-detail img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 0;
+}
+
+.search-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    background-color: white;
+    border-radius: 30px;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 20px;
+    border: 0px white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.location {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.checkin {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkin p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.checkout {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.num_person {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_person p {
+    color: black;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.search-button {
+    background-color: rgb(225, 41, 102);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button img {
+    background-color: rgb(225, 41, 102);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
